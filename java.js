@@ -4,10 +4,9 @@
 // let  b= [];
 // for (let i = 0; i <= n; i++) {
 //   b.push(i)
-   
+
 // }
 // console.log(b);
-
 
 // let n =10;
 // let arr =[];
@@ -16,7 +15,7 @@
 // for (let i = 1; i <= n; i++) {
 //        arr.push(i);
 //              if (i % 2 == 0) {
-//                 juft.push(i)            
+//                 juft.push(i)
 //              }else{
 //               i % 2 == 0
 //                 toq.push(i)
@@ -41,7 +40,6 @@
 //   }else{
 //     return str
 //   }
-      
 
 // }
 // console.log(removeLastEl("hello1!!!"));
@@ -57,13 +55,11 @@
 //       arr1 += arr[i];
 //     }else{
 //       arr2 += arr[i];
-//     }   
+//     }
 //   }
 //   return [arr1,arr2];
 // }
 // console.log(x(arr));
-
-
 
 // let str = "Robert Sharma"
 // console.log(str.split(" "));
@@ -83,7 +79,6 @@
 // }
 
 // console.log(checkTypeof(someArr));
-
 
 // function encode(str) {
 //   let result = "";
@@ -105,7 +100,7 @@
 //       charCode = 96 +(charCode-122);
 //     }
 //       result +=
-//       String.fromCharCode(charCode); 
+//       String.fromCharCode(charCode);
 //   }
 //   return result;
 // }
@@ -124,7 +119,7 @@
 //   //let  number = 5;
 // let x=1;
 // for (let i = 1; i <= num; i++) {
-//   x*=i 
+//   x*=i
 // }
 // return x
 // }
@@ -139,8 +134,8 @@
 //     if (i % x==0) {
 //       a.push(i)
 //     }
-    
-//   }  
+
+//   }
 //   return a
 
 // }
@@ -157,22 +152,40 @@
 // let str =` `
 // for (let i = 0; i <= number; i++) {
 //   str += fruits
-  
-// }
-// console.log(str); 
 
-// 
-function reversWords(word){
-  let str = "";
-  let arr = word.split(" ");
-  for (let i = 0; i < arr.length; i++) {
-            
-    for (let j = arr[i].length-1; j >= 0; j--) {
-         str += arr[i][j];
-      
-    }
-    str += " ";
-  }
-  return str;
+// }
+// console.log(str);
+
+//
+// function reversWords(word){
+//   let str = "";
+//   let arr = word.split(" ");
+//   for (let i = 0; i < arr.length; i++) {
+
+//     for (let j = arr[i].length-1; j >= 0; j--) {
+//          str += arr[i][j];
+
+//     }
+//     str += " ";
+//   }
+//   return str;
+// }
+// console.log(reversWords("salom  qachon kelasan"));
+
+function switchItUp(numb) {
+  let arr = [
+    "Zero",
+    "One",
+    "Two",
+    "Three",
+    "Four",
+    "Five",
+    "six",
+    "Seven",
+    "Eight",
+    "Ninee",
+    "Ten",
+  ];
+  return arr [numb]
 }
-console.log(reversWords("salom  qachon kelasan"));
+console.log(switchItUp(0));

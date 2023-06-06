@@ -129,3 +129,19 @@
 // return x
 // }
 // console.log(namber(6));
+
+// n va x sonlar berilgan 0 va n gacha sonlar orasida  x ga bo'lilnladigan dastur tuzing
+
+ function nomer(n,x) {
+    let a = [];
+  for (let i = 0; i <= n; i++) {
+    console.log(i);
+    if (i % x==0) {
+      a.push(i)
+    }
+    
+  }  
+  return a
+
+}
+console.log(nomer(10,3));

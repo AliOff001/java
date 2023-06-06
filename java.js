@@ -132,16 +132,47 @@
 
 // n va x sonlar berilgan 0 va n gacha sonlar orasida  x ga bo'lilnladigan dastur tuzing
 
- function nomer(n,x) {
-    let a = [];
-  for (let i = 0; i <= n; i++) {
-    console.log(i);
-    if (i % x==0) {
-      a.push(i)
-    }
+//  function nomer(n,x) {
+//     let a = [];
+//   for (let i = 0; i <= n; i++) {
+//     console.log(i);
+//     if (i % x==0) {
+//       a.push(i)
+//     }
     
-  }  
-  return a
+//   }  
+//   return a
 
+// }
+// console.log(nomer(10,3));
+
+// let userName = prompt("ism kiriting");
+// let surName = prompt("Familiyangizni kiriting");
+// alert(`${userName} ${surName}`)
+//
+
+// let number = prompt("son kriting");
+
+// let fruits = prompt("meva kriting");
+// let str =` `
+// for (let i = 0; i <= number; i++) {
+//   str += fruits
+  
+// }
+// console.log(str); 
+
+// 
+function reversWords(word){
+  let str = "";
+  let arr = word.split(" ");
+  for (let i = 0; i < arr.length; i++) {
+            
+    for (let j = arr[i].length-1; j >= 0; j--) {
+         str += arr[i][j];
+      
+    }
+    str += " ";
+  }
+  return str;
 }
-console.log(nomer(10,3));
+console.log(reversWords("salom  qachon kelasan"));

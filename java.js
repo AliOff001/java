@@ -172,20 +172,35 @@
 // }
 // console.log(reversWords("salom  qachon kelasan"));
 
-function switchItUp(numb) {
-  let arr = [
-    "Zero",
-    "One",
-    "Two",
-    "Three",
-    "Four",
-    "Five",
-    "six",
-    "Seven",
-    "Eight",
-    "Ninee",
-    "Ten",
-  ];
-  return arr [numb]
+// function switchItUp(numb) {
+//   let arr = [
+//     "Zero",
+//     "One",
+//     "Two",
+//     "Three",
+//     "Four",
+//     "Five",
+//     "six",
+//     "Seven",
+//     "Eight",
+//     "Ninee",
+//     "Ten",
+//   ];
+//   return arr [numb]
+// }
+// console.log(switchItUp(0));
+
+// function yigindi(n){
+//   let sum = 0 ;
+//   for (let i = 0; i <= n; i++) {
+//       sum += i;    
+//   }
+//   return sum
+// }
+// console.log(yigindi(10));
+// 2-usul
+
+function yigindi(n) {
+  return n * (n+1)/2
 }
-console.log(switchItUp(0));
+console.log(yigindi(10));
